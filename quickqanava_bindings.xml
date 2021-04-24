@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<typesystem package="pyqanava">
+    <primitive-type name="bool"/>
+    <primitive-type name="std::string"/>
+    
+    <load-typesystem name="typesystem_core.xml" generate="no"/>
+    <load-typesystem name="typesystem_qml.xml" generate="no"/>
+    <load-typesystem name="typesystem_widgets.xml" generate="no"/>
+    <load-typesystem name="typesystem_quick.xml" generate="no"/>
+
+    <namespace-type name="qan" visible="true" generate="yes">
+        <object-type name="Graph" copyable="no">
+            <!-- FIXME ... ownership -->
+            <modify-function signature="clear()">
+            </modify-function>
+        </object-type>
+    </namespace-type>
+</typesystem>

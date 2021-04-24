@@ -13,12 +13,12 @@ GPLv3.
 
 ## Installing
 
-The build configuration only work for Ubutun 20.04 (targeting Github actions CI).
+Build configuration targets Ubuntu 20.04 (Target: Github actions CI).
 
 **Requirements:**
 - Qt must be installed `$HOME/Qt/` (Ex: `$HOME/Qt/6.1.0/`)
 - Only tested on Qt 6.1.0 with Python 3.8.5 (standard Ubuntu Python installation) on x64.
-- `shiboken6 --version` == `FIXME`
+- `shiboken6 --version` == `shiboken v6.0.3`
 - `clang --version` == `clang version 10.0.0-4ubuntu1`
 - `cmake --version` == `cmake version 3.16.3`
 
