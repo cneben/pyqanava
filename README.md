@@ -1,6 +1,6 @@
 # pyqanava
 
-PySide6 port of [QuickQanava](https://github.com/cneben/QuickQanava)
+PySide6 binding of [QuickQanava](https://github.com/cneben/QuickQanava)
 
 :warning: This is a work in progress / open to contributions port.
 
@@ -16,13 +16,13 @@ GPLv3.
 Build configuration targets Ubuntu 20.04 (Target: Github actions CI).
 
 **Requirements:**
-- Qt must be installed `$HOME/Qt/` (Ex: `$HOME/Qt/6.1.0/`)
-- Only tested on Qt 6.1.0 with Python 3.8.5 (standard Ubuntu Python installation) on x64.
-- `shiboken6 --version` == `shiboken v6.0.3`
-- `clang --version` == `clang version 10.0.0-4ubuntu1`
-- `cmake --version` == `cmake version 3.16.3`
+- Qt must be installed in `$HOME/Qt/` (Ex: `$HOME/Qt/6.1.0/`).
+- Only tested with Qt 6.1.0 and Python 3.8.5 (standard Ubuntu Python installation) on x64.
+- `shiboken6 --version` == `shiboken v6.0.3`.
+- `clang --version` == `clang version 10.0.0-4ubuntu1`.
+- `cmake --version` == `cmake version 3.16.3`.
 
-Apt dependencies:
+Ubuntu dependencies:
 ```
 $ sudo apt install libicu-dev
 $ sudo apt install cmake
