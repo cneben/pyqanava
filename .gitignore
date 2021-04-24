@@ -1,5 +1,9 @@
 # Prerequisites
 *.d
+.vscode
+build
+build/*
+CMakeLists.txt.user
 
 # Compiled Object files
 *.slo
